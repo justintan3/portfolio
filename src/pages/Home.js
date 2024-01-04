@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import About from './About';
 import Experiences from './Experiences';
 import Contact from './Contact';
-import logo from '../logo.svg';
+import Background from '../background_img.png';
 
 export const Home = () => {
     const homeRef = useRef(null);
@@ -25,7 +25,7 @@ export const Home = () => {
     <>
     <div className="App" ref={homeRef}>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Background} className="App-logo" alt="logo" />
         <div className="nav-panel">
         <Navbar homeRef={homeRef} aboutRef={aboutRef} experiencesRef={experiencesRef} contactRef={contactRef} handleScroll={handleScroll}/>
     </div>
