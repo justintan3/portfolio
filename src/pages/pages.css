@@ -16,24 +16,56 @@ body {
   
   .introduction {
     display: flex;
-    justify-content: center;
-    vertical-align: center;
-    width: 50%;
+    /* justify-content: center;
+    vertical-align: center; */
+    width: 90%;
     position: absolute;
-    top: 400px;
+    top: 0px;
   }
-  .hello {
+  .top-bar {
+    top: 100%;
+    width: 100%;
+    border-bottom: 1px solid rgb(120, 119, 119);
+    margin: 0 0 0 125px;
+  }
+  /* .hello {
     font-size: 24px;
     align-items: center;
     height: 100%;
     color:rgb(238, 157, 9)
-  }
+  } */
   .my-name {
-    font-size: 72px;
+    font-size: 24px;
+    color:  #ffffff;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Cormorant Garamond', serif;    
+    /* align-items: center; */
+    float: right;
+    padding: 10px;
+    margin-left: 100px;
+  }
+
+  .occupation {
+    float: right;
+    font-size: 24px;
     color:  #ffffff;
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: 'Barlow Condensed', sans-serif;
     align-items: center;
+    padding: 10px;
+  }
+
+  .i-am-him {
+    margin-left: 60%;
+    align-items: left;
+    position: absolute;
+    top: 115px;
+    width: 40%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    opacity: 0.85;
+    font-weight: 500;
   }
 
   .App-header {
