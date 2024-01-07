@@ -11,7 +11,7 @@ body {
     height: 1000px;
     object-fit: cover;
     pointer-events: none;
-    opacity: 0.5;
+    opacity: 0.3;
   }
   
   .introduction {
