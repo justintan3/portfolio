@@ -158,6 +158,34 @@ body {
     opacity: 0.8;
   }
 
+  .experience-container-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 225px;
+    left: 50%;
+    /* top: 25%; */
+    /* padding-bottom: 250px; */
+    width: 500px;
+    height: 215px;
+    z-index: 1;
+    background-color: #f6f3f3;
+  }
+
+  .experience-container-2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 125px;
+    right: 50%;
+    /* top: 25%; */
+    /* padding-bottom: 250px; */
+    width: 500px;
+    height: 215px;
+    z-index: 1;
+    background-color: #f6f3f3;
+  }
+
   .divider {
     display: flex;
     /* justify-content: center; */
@@ -165,6 +193,18 @@ body {
     top: 165px;
     width: 5px;
     height: 400px;
+    left: 25%;
+    background-color:rgb(238, 157, 9);
+    z-index: 1;
+  }
+
+  .experience-divider {
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    /* top: 165px; */
+    width: 5px;
+    height: 215px;
     left: 25%;
     background-color:rgb(238, 157, 9);
     z-index: 1;
@@ -196,7 +236,7 @@ body {
     position: absolute;
     top: 10%;
     width: 750px;
-    height: 500px;
+    height: 200px;
     /* margin-left: 10%; */
     /* left: 21%; */
     color:#f6f3f3;
@@ -204,20 +244,6 @@ body {
     font-weight: 400;
     font-family: 'Barlow Condensed', sans-serif;
     padding-bottom: 100px;
-  }
-
-  .experience-container {
-    display: flex;
-    /* justify-content: center; */
-    position: relative;
-    top: 250px;
-    /* left: 27.5%; */
-    top: 25%;
-    padding-bottom: 250px;
-    width: 500px;
-    height: 150px;
-    z-index: 1;
-    background-color: #f6f3f3;
   }
 
   .contact-page {
