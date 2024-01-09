@@ -27,10 +27,7 @@ export const Project = () => {
           ></div>
         </div>
         <div className="experience-container-2">
-          <div
-            className="experience-divider"
-            // style={{ height: "215px", top: "500px", left: "-10%" }}
-          ></div>
+          <div className="experience-divider" style={{ left: "0%" }}></div>
         </div>
       </div>
     </div>

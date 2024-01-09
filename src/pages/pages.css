@@ -163,13 +163,13 @@ body {
     justify-content: center;
     position: absolute;
     top: 225px;
-    left: 50%;
+    left: 35%;
     /* top: 25%; */
     /* padding-bottom: 250px; */
     width: 500px;
     height: 215px;
     z-index: 1;
-    background-color: #f6f3f3;
+    /* background-color: #f6f3f3; */
   }
 
   .experience-container-2 {
@@ -177,13 +177,13 @@ body {
     justify-content: center;
     position: absolute;
     bottom: 125px;
-    right: 50%;
+    right: 35%;
     /* top: 25%; */
     /* padding-bottom: 250px; */
     width: 500px;
     height: 215px;
     z-index: 1;
-    background-color: #f6f3f3;
+    /* background-color: #f6f3f3; */
   }
 
   .divider {
@@ -201,11 +201,11 @@ body {
   .experience-divider {
     display: flex;
     /* justify-content: center; */
-    position: relative;
+    position: absolute;
     /* top: 165px; */
     width: 5px;
     height: 215px;
-    left: 25%;
+    left: 100%;
     background-color:rgb(238, 157, 9);
     z-index: 1;
   }
