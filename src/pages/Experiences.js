@@ -25,6 +25,16 @@ export const Project = () => {
             className="experience-divider"
             //   style={{ height: "215px", top: "0%" }}
           ></div>
+          <p className="project-name">
+            Document Approval
+            <ul>
+              <li className="project-description">
+                Led frontend development of multiple successfully launched
+                internal web-based applications that is now used by hundreds of
+                employees company-wide.
+              </li>
+            </ul>
+          </p>
         </div>
         <div className="experience-container-2">
           <div className="experience-divider" style={{ left: "0%" }}></div>
