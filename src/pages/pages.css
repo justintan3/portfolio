@@ -185,7 +185,7 @@ body {
 
 /* PROJECT PAGE */
 
-.project-container {
+.experience-page-container {
   display: flex;
   justify-content: center;
   position: relative;
@@ -196,21 +196,19 @@ body {
   /* opacity: 0.5; */
 }
 
-.experience-container-1 {
+.experience-container {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 225px;
-  left: 55%;
-  /* top: 25%; */
-  /* padding-bottom: 250px; */
-  width: 500px;
+  top: 175px;
+  width: 800px;
   height: 215px;
+  /* right: 20%; */
+  margin: 0 0 0 150px;
   z-index: 1;
-  /* background-color: #f6f3f3; */
 }
 
-.experience-container-2 {
+.project-container {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -224,9 +222,10 @@ body {
   /* background-color: #f6f3f3; */
 }
 
-.project-name {
+.experience-name {
   float: left;
   display: flex;
+  position: absolute;
   justify-content: right;
   color: white;
   font-size: 24px;
@@ -235,13 +234,36 @@ body {
   padding: 0 16px 0 0;
 }
 
-.project-description li {
-  float: left;
+.project-name {
+  /* float: left; */
   display: flex;
-  justify-content: right;
+  position: absolute;
+  justify-content: left;
   color: white;
   font-size: 24px;
-  width: 150px;
+  width: 100%;
+  white-space: nowrap;
+  padding: 0 0 0 16px;
+}
+
+.experience-description {
+  justify-content: right;
+  text-align: right;
+  color: white;
+  font-size: 24px;
+  width: 100%;
+  /* inline-size: min-content; */
+  white-space: wrap;
+  padding: 36px 16px 0 0;
+  list-style-type: none;
+}
+
+.project-description {
+  justify-content: left;
+  text-align: right;
+  color: white;
+  font-size: 24px;
+  width: 100%;
   /* inline-size: min-content; */
   white-space: wrap;
   padding: 36px 16px 0 0;
@@ -264,7 +286,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 10%;
+  top: 5%;
   width: 750px;
   height: 200px;
   /* margin-left: 10%; */
@@ -274,6 +296,24 @@ body {
   font-weight: 400;
   font-family: "Barlow Condensed", sans-serif;
   padding-bottom: 100px;
+  margin: 0 0 0 150px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  width: 750px;
+  height: 200px;
+  /* margin-left: 10%; */
+  /* left: 21%; */
+  color: #f6f3f3;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  padding-bottom: 100px;
+  margin: 0 0 0 150px;
 }
 
 .contact-page {
