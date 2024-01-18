@@ -2,12 +2,12 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "./pages.css";
 
-export const Project = () => {
+const Project = () => {
   return (
     <div className="App">
-      <div className="nav-panel">
+      {/* <div className="nav-panel">
         <Navbar />
-      </div>
+      </div> */}
       <div className="experience-page-container">
         <div className="header">Experiences</div>
         {/* <div className="experience">
@@ -25,7 +25,9 @@ export const Project = () => {
             className="experience-divider"
             //   style={{ height: "215px", top: "0%" }}
           ></div>
-          <p className="experience-name">Document Approval</p>
+          <p className="experience-name">
+            Frontend Developer - Applied Medical
+          </p>
           <ul>
             <li className="experience-description">
               Led frontend development of multiple successfully launched
@@ -44,13 +46,25 @@ export const Project = () => {
           <div className="experience-divider" style={{ left: "0%" }} />
           <p className="project-name">Document Approval</p>
           <ul>
-            <li className="project-description">
-              Developed a document approval application built with React, SCSS,
-              Hasura, and Azure.
+            <li
+              className="project-description"
+              style={{ padding: "24px 0 0 16px" }}
+            >
+              - Developed a document approval application built with React,
+              SCSS, Hasura, and Azure.
             </li>
             <li className="project-description">
-              Implemented Cypress automated testing to conduct code reviews to
+              - Implemented Cypress automated testing to conduct code reviews to
               instantly detect bugs and issues.
+            </li>
+            <p className="project-name">Anouncements</p>
+            <li
+              className="project-description"
+              style={{ padding: "24px 0 0 16px" }}
+            >
+              - Announcement application that provides employees with the
+              company's latest news, blogs, podcasts, and updates built with
+              React and CSS.
             </li>
           </ul>
         </div>

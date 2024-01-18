@@ -6,9 +6,9 @@ import "./pages.css";
 const About = () => {
   return (
     <div className="App">
-      <div className="nav-panel">
+      {/* <div className="nav-panel">
         <Navbar />
-      </div>
+      </div> */}
       <div className="about-container">
         <p className="about-me">ABOUT ME</p>
         <div className="about-me-divider" />

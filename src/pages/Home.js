@@ -20,8 +20,6 @@ export const Home = () => {
     });
   };
 
-  console.log("homeRef: ", homeRef);
-  console.log("aboutRef: ", aboutRef);
   return (
     <>
       <div className="App" ref={homeRef}>
