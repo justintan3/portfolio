@@ -130,7 +130,8 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  align-items: center;
+  /* align-items: center; */
+  margin-top: 100px;
   left: 32%;
   width: 750px;
   height: 500px;
@@ -138,6 +139,7 @@ body {
   font-size: 64px;
   font-weight: 400;
   font-family: "Barlow Condensed", sans-serif;
+  z-index: 1;
 }
 
 .background-img {
@@ -156,11 +158,11 @@ body {
 .about-me-divider {
   display: flex;
   /* justify-content: center; */
-  position: relative;
-  top: 303px;
+  position: absolute;
+  top: 30%;
   width: 5px;
   height: 400px;
-  left: 25%;
+  left: 57.5%;
   background-color: rgb(238, 157, 9);
   z-index: 1;
 }
@@ -171,7 +173,6 @@ body {
   position: relative;
   top: 250px;
   left: 27%;
-  top: 30%;
   padding-bottom: 250px;
   width: 500px;
   height: 150px;
@@ -179,6 +180,8 @@ body {
 }
 
 .description {
+  display: flex;
+  position: absolute;
   font-size: 28px;
   font-weight: 300;
   font-family: "Barlow Condensed", sans-serif;
